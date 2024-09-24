@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     throw new Error('Method not implemented.');
   }
   gasPrices: any = { SafeGasPrice: 0, ProposeGasPrice: 0, FastGasPrice: 0 }; // Defaults
-  countdown: number = 5; // Initial countdown value
+  countdown: number = 59; // Initial countdown value
   private subscription: Subscription | undefined;
 
   constructor(private ethGasService: EthGasService) {}
